@@ -11,6 +11,6 @@ public class CustomAutoConfiguration {
 
 	@Bean
 	public CustomService customService(CustomProperties customProperties){
-		return new CustomService(customProperties);
+			return new CustomService(customProperties);
 	}
 }
